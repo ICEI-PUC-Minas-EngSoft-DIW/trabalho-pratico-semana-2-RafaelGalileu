@@ -1,0 +1,104 @@
+:root {
+    --fonte: "Lucida Console", "Courier New", monospace;
+    --color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.CorpoDaPagina 
+{
+    background-color: rgb(149, 212, 248);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    font-family: "Arimo", sans-serif;
+    font-style: normal;
+}
+
+.LadoEsquerdo {
+    width: 40%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    border-right: 1px solid red;
+    border-color: black;
+    padding-right: 2%;
+}
+
+.ResumoEFotoDePerfil {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem {
+    border-radius: 30px;
+}
+
+.LadoDireito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.Dados {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Endereco {
+    margin-right: 1.5%;
+}
+
+.Contato {
+    margin-right: 3%;
+    text-align: right;
+}
+
+h2 {
+    color: white;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+
+}
+
+.botao {
+    background-color: azure;
+    color: black;
+    padding: 15px;
+   margin: 5px;
+   border-radius: 15px;
+
+}
+
+.Github {
+    background-color: azure;
+}
+
+.Instagram {
+    background-color: azure;
+}
+
+.link {
+   text-decoration: none;
+   color: black;
+   
+}
